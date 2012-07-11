@@ -47,9 +47,12 @@ a.member:hover {
 	clear: both;
 }
 
-.message.incoming,
-.event {
+.message.incoming {
 	background: url(images/background-incoming.png) left top repeat-y;
+}
+
+.event {
+	background:#d9e7fb;
 }
 
 .message.incoming.highlight {
